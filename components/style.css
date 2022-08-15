@@ -1,5 +1,72 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  text-align: center;
+  line-break: initial;
+  font: small-caption;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+  background-color: rgb(188, 188, 188);
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(163, 10, 10);
+  color: black;
+}
+
+
+.topnav li a.active {
+  background-color: rgb(163, 10, 10);
+  color: white;
+}
+
+body {
+  background-color: grey;
+  border: 10;
+}
+
+.map{
+  background-color: black;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.contact{
+  background-color: rgb(92, 92, 92);
+  border-radius: 10px;
+  margin-left: 600px;
+	margin-right: 600px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+p{
+  text-align: center;
+  font-size: xx-large;
+  font-style: unset ;
+}
+
+.mlkz{
+  size: 10px;
+}
+
+.col-md-6{
+  background-color: pink;
+  margin-left: 700px;
+  margin-right: 700px;
+}
+
