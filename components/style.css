@@ -349,6 +349,7 @@ template {
 }
 
 
+
 ul {
   text-align: center;
   line-break: initial;
@@ -409,7 +410,7 @@ body {
 
 .mulequez{
   display: flex;
-  justify-content:space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 1.5rem;
@@ -420,7 +421,7 @@ body {
 }
 
 .biomorador{
-  width: 50vw;
+  width: 40vw;
   font-size: 2rem;
   text-shadow: 2px 2px 2px solid black;
 
