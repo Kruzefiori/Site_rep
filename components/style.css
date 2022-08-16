@@ -8,9 +8,11 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -51,9 +53,12 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -62,8 +67,10 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -83,9 +90,12 @@ a {
  */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -105,8 +115,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -162,10 +174,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -174,7 +190,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +201,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -238,12 +256,18 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -269,8 +293,10 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -288,8 +314,10 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -306,8 +334,10 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -362,6 +392,7 @@ ul {
 .topnav {
   background-color: rgb(188, 188, 188);
   overflow: hidden;
+  position: sticky;
 }
 
 
@@ -393,22 +424,33 @@ body {
   border: 10;
 }
 
-.map{
+.map {
   background-color: black;
   margin-left: 50px;
   margin-top: 60px;
 }
 
-.contact{
+.contact {
   background-color: rgb(92, 92, 92);
   border-radius: 10px;
   margin-left: 600px;
-	margin-right: 600px;
+  margin-right: 600px;
   margin-top: 50px;
   margin-bottom: 100px;
 }
 
-.mulequez{
+.morador {
+  border: 5px solid rgb(163, 10, 10);
+  border-radius: 10px;
+}
+
+.foto {
+  size: 100px;
+  max-height: 300px;
+  max-width: 10px;
+}
+
+.mulequez {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -416,21 +458,113 @@ body {
   font-size: 1.5rem;
 }
 
-.mulequez img{
+.mulequez img {
   width: 20vw;
 }
 
-.biomorador{
+.biomorador {
   width: 40vw;
   font-size: 2rem;
   text-shadow: 2px 2px 2px solid black;
-
+  text-align: left;
+  margin-left: 500px;
+  color: rgb(255, 255, 255);
 }
 
 
-.col-md-6{
+.col-md-6 {
   background-color: pink;
   margin-left: 700px;
   margin-right: 700px;
 }
 
+.forms {
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-main-text {
+  text-align: center;
+  font-size: 4rem;
+  color: black;
+}
+
+.infos {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  line-height: 2.3;
+
+}
+
+.lola {
+  width: 1500px;
+  /* or whatever width you want. */
+  max-width: 600px;
+  max-height: 700px;
+}
+
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.frase {
+  text-align: left;
+}
+
+.big_border {
+  border: 5px solid rgb(163, 10, 10);
+  margin-left: 10vh;
+  margin-right: 10vh;
+  background-color: rgb(92, 92, 92);
+  ;
+  border-radius: 30px;
+}
+
+body {
+  background-color: rgb(163, 10, 10);
+}
